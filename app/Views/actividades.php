@@ -14,9 +14,9 @@
 <div class="container">
     <h1 class="title">Actividades del Día</h1>
 
-    <div class="task">📌 Terminar tarea de matemáticas</div>
-    <div class="task">📌 Organizar escritorio</div>
-    <div class="task">📌 Leer 10 páginas</div>
+    <div class="task"> Terminar tarea de matemáticas</div>
+    <div class="task"> Organizar escritorio</div>
+    <div class="task"> Leer 10 páginas</div>
 </div>
 
 </body>

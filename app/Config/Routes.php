@@ -17,3 +17,17 @@ $routes->get('/recompensas', 'Home::recompensas');
 $routes->get('/progreso', 'Home::progreso');
 $routes->get('/actividades', 'Home::actividades');
 $routes->get('/perfil', 'Home::perfil');
+$routes->get('/logros', 'Home::logros');
+$routes->get('/ranking', 'Home::ranking');
+$routes->get('/preguntas', 'Home::preguntas');
+$routes->get('/curso', 'Home::curso');
+$routes->get('/configuracion', 'Home::configuracion');
+$routes->get('/registro', 'RegistroController::index');
+$routes->post('/registro/guardar', 'RegistroController::guardar');
+$routes->get('/registro', 'RegistroController::index');
+$routes->get('/curso', 'CursoController::index');
+$routes->get('/preguntas', 'PreguntasController::index');
+$routes->get('/registro', 'RegistroController::index');
+$routes->get('/curso', 'CursoController::index');
+$routes->get('/preguntas', 'PreguntasController::index');
+

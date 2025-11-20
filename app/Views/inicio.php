@@ -65,19 +65,25 @@
         <!-- end of mobile menu toggle button -->
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#registro">REGISTRO <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#descripcion">DETALLES</a>
-                </li>
+          <nav style="display:flex; gap:25px; align-items:center;">
 
-                <!-- end of dropdown menu -->
+    <a href="<?= base_url('/registro') ?>" 
+       style="color:white; font-weight:bold; text-decoration:none;">
+       REGISTRO
+    </a>
 
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#contacto">CONTACTO</a>
-                </li>
+    <a href="<?= base_url('/curso') ?>" 
+       style="color:white; font-weight:bold; text-decoration:none;">
+       CURSO
+    </a>
+
+    <a href="<?= base_url('/preguntas') ?>" 
+       style="color:white; font-weight:bold; text-decoration:none;">
+       PREGUNTAS
+    </a>
+
+</nav>
+
             </ul>
             <span class="nav-item social-icons">
                 <span class="fa-stack">
