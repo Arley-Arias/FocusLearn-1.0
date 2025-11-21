@@ -30,4 +30,6 @@ $routes->get('/preguntas', 'PreguntasController::index');
 $routes->get('/registro', 'RegistroController::index');
 $routes->get('/curso', 'CursoController::index');
 $routes->get('/preguntas', 'PreguntasController::index');
+$routes->get('/', 'PreguntasController::index');
+$routes->get('descubrir', 'Home::descubrir');
 
