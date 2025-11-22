@@ -8,7 +8,6 @@ class Home extends BaseController
     {
         return view('Inicio');
     }
-<<<<<<< HEAD
 
 public function retos() { return view('retos'); }
 public function recompensas() { return view('recompensas'); }
@@ -21,6 +20,4 @@ public function preguntas() { return view('preguntas'); }
 public function curso() { return view('curso'); }
 public function configuracion() { return view('configuracion'); }
 
-=======
->>>>>>> 7a33f26d9ffa7583bac48430059228e2ef0a8ad1
 }

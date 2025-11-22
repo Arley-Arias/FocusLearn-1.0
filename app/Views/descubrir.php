@@ -1,2 +1,3 @@
-<a href="<?= base_url('descubrir'); ?>" class="btn btn-primary">Descubrir</a>
+<h1>Página Descubrir</h1>
+<p>Contenido de prueba…</p>
 

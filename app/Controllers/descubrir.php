@@ -3,10 +3,9 @@
 namespace App\Controllers;
 
 class Home extends BaseController
-
 {
-    public function details() 
+    public function descubrir()
     {
-    return view('descubrir_view');
+        return view('descubrir');
     }
 }
