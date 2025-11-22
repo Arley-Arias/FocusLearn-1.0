@@ -11,6 +11,7 @@ $route['default_controller'] = 'pagina/inicio';
 $routes->get('detalis', 'Details::details');
 $routes->get('/privacy', 'Home::privacy');
 $routes->get('/terms', 'Home::terms');
+<<<<<<< HEAD
 $routes->get('/', 'Inicio::index');
 $routes->get('/retos', 'Home::retos');
 $routes->get('/recompensas', 'Home::recompensas');
@@ -33,3 +34,6 @@ $routes->get('/preguntas', 'PreguntasController::index');
 $routes->get('/', 'PreguntasController::index');
 $routes->get('descubrir', 'Home::descubrir');
 
+=======
+$routes->get('/', 'Inicio::index');
+>>>>>>> 7a33f26d9ffa7583bac48430059228e2ef0a8ad1

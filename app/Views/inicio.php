@@ -65,6 +65,7 @@
         <!-- end of mobile menu toggle button -->
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+<<<<<<< HEAD
           <nav style="display:flex; gap:25px; align-items:center;">
 
     <a href="<?= base_url('/registro') ?>" 
@@ -84,6 +85,21 @@
 
 </nav>
 
+=======
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#registro">REGISTRO <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#descripcion">DETALLES</a>
+                </li>
+
+                <!-- end of dropdown menu -->
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contacto">CONTACTO</a>
+                </li>
+>>>>>>> 7a33f26d9ffa7583bac48430059228e2ef0a8ad1
             </ul>
             <span class="nav-item social-icons">
                 <span class="fa-stack">
